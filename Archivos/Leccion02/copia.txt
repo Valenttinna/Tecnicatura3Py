@@ -1,0 +1,11 @@
+Programamos con diferenctes tipos de archivos, ahora en txt. 
+Los acentos son importantes para las palaras
+Como por ejemplo: acción, ejecución
+r= leer
+a= anexar
+x = crea un archivo exepcion
+t= texto 
+b = archivos vinarios 
+w+=leer y escribir
+Saludos a todos los alumnos de la tecnicatura
+Con esto terminamos
