@@ -2,35 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211a54d9-1c15-434c-b015-1c4545a3c9f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/.idea/catalogo_pelicula.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/catalogo_pelicula.uxf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/dominio/Pelicula.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/dominio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/peliculas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/servicio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/servicio/catalogo_peliculas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Leccion03/catalogo_pelicula/test_catalogo_peliculas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/.idea/BD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/i_registros.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/v_registros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BD/prueba_bd.py" beforeDir="false" afterPath="$PROJECT_DIR$/BD/prueba_bd.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2P28gN14EMBszmwrFhIqvFVHCVn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,9 +35,81 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/VALENTINA/Tecnicatura3Py/Leccion04/BD"
+    "last_opened_file_path": "C:/Users/VALENTINA/Tecnicatura3Py/Leccion04"
   }
 }]]></component>
+  <component name="RunManager" selected="Python.i_registros">
+    <configuration name="i_registros" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Leccion04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BD/i_registros.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prueba_bd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Leccion04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BD/prueba_bd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="v_registros" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Leccion04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BD/v_registros.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.i_registros" />
+        <item itemvalue="Python.v_registros" />
+        <item itemvalue="Python.prueba_bd" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

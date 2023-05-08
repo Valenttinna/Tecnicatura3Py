@@ -7,12 +7,32 @@ conexion = psycopg2.connect(
     port='5432',
     database='test_bd'
 )
+try:
+    with conexion:
+        with conexion.cursor() as cursor:
+            #cursor = conexion.cursor()##ahora no lo necesito con el with
+            #sentencia = 'SELECT * FROM persona'
 
-cursor = conexion.cursor()
-sentencia = 'SELECT * FROM persona'
-cursor.execute(sentencia) #Ejecutar sentencia
-registros = cursor.fetchall()#Recupera todos los registros
-print(registros)
+            ##espesificamos que es lo que queresmos sin *
+            #sentencia = 'SELECT id_persona, nombre FROM persona'
 
-cursor.close()
+            ##o podemos ver solo los datos de una persona
+     #       sentencia = 'SELECT * FROM persona WHERE id_persona = 1'
+            ##cando ponemos = %s : placeholder
+     #       cursor.execute(sentencia) #Ejecutar sentencia
+     #       registros = cursor.fetchall()#Recupera todos los registros
+     #       print(registros)
+
+            sentencia = 'SELECT * FROM persona WHERE id_persona = %s'
+            id_persona = input('Digite un numero para el id_persona: ')
+            cursor.execute(sentencia,(id_persona,))
+            registros = cursor.fetchone()
+            print(registros)
+
+except Exception as e:
+    print(f'Ocurrio un error: {e}')
+finally:
+    conexion.close()
+
+#cursor.close()## directamente se cierra con el with
 conexion.close()
