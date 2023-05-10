@@ -11,7 +11,7 @@ try:
         with conexion.cursor() as cursor:
             sentencia = 'SELECT * FROM persona WHERE id_persona IN %s'
             entrada = input('Digite los id_persona a buscar (Separados por coma): ')
-            llaves_primarias = (tuple(entrada.split(', ')),)#la coma final lo hace tupla de tuplas
+            llaves_primarias = (tuple(entrada.split(',')),)#la coma final lo hace tupla de tuplas
             cursor.execute(sentencia, llaves_primarias)
             registros = cursor.fetchall()
             for registro in registros:
